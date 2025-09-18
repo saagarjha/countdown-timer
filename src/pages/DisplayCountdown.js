@@ -45,9 +45,6 @@ const DisplayCountdown = () => {
   return (
     <>
       <CountdownTimer {...{iso, zone, title, theme }} />
-      <nav className="bg-dark text-white pt-3 pb-1 pb-md-0">
-        <SeeMore />
-      </nav>
     </>
   );
 };
